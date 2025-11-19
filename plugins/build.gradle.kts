@@ -33,8 +33,8 @@ subprojects {
         }
 
         compileOptions {
-            sourceCompatibility = JavaVersion.VERSION_11
-            targetCompatibility = JavaVersion.VERSION_11
+            sourceCompatibility = JavaVersion.VERSION_21
+            targetCompatibility = JavaVersion.VERSION_21
         }
     }
 
@@ -56,7 +56,7 @@ subprojects {
 
     configure<KotlinAndroidExtension> {
         compilerOptions {
-            jvmTarget = JvmTarget.JVM_11
+            jvmTarget = JvmTarget.JVM_21
             optIn.add("kotlin.RequiresOptIn")
         }
     }
