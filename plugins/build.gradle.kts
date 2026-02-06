@@ -26,10 +26,8 @@ subprojects {
         }
 
         buildFeatures {
-            aidl = false
             buildConfig = true
-            renderScript = false
-            shaders = false
+            resValues = true
         }
 
         compileOptions {
